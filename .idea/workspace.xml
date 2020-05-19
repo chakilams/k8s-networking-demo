@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364f375d-375f-4542-9dcc-fbba9c4dd4fb" name="Default Changelist" comment="">
+    <list default="true" id="364f375d-375f-4542-9dcc-fbba9c4dd4fb" name="Default Changelist" comment="Added a new file nginx-sidecar.yaml">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/k8s-networking-demo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-sidecar.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -50,7 +53,19 @@
       <option name="presentableId" value="Default" />
       <updated>1589867748018</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a new file nginx-sidecar.yaml">
+      <created>1589868143885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589868143885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a new file nginx-sidecar.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new file nginx-sidecar.yaml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="33" key="#Project_Structure" timestamp="1589867760028">
@@ -61,5 +76,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="530" y="361" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1589867884148" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1589868170223">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589868170223" />
   </component>
 </project>
