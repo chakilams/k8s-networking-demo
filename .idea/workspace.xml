@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364f375d-375f-4542-9dcc-fbba9c4dd4fb" name="Default Changelist" comment="Added a new file nginx-sidecar.yaml">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/k8s-networking-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="364f375d-375f-4542-9dcc-fbba9c4dd4fb" name="Default Changelist" comment="renamed nginx-sidecar.yaml to nginx-sidecar1.yaml and added a new files nginx-sidecar2.yaml and postgres.yaml">
+      <change afterPath="$PROJECT_DIR$/nginx-sidecar-curl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx-sidecar-utils.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-sidecar.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-sidecar1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-sidecar2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/postgres.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +24,15 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1c77Ok9JHjdAiLrpMTewmHSlV7k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -60,12 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589868143885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="renamed nginx-sidecar.yaml to nginx-sidecar1.yaml and added a new files nginx-sidecar2.yaml and postgres.yaml">
+      <created>1589869567066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589869567066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added a new file nginx-sidecar.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new file nginx-sidecar.yaml" />
+    <MESSAGE value="renamed nginx-sidecar.yaml to nginx-sidecar1.yaml and added a new files nginx-sidecar2.yaml and postgres.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed nginx-sidecar.yaml to nginx-sidecar1.yaml and added a new files nginx-sidecar2.yaml and postgres.yaml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="33" key="#Project_Structure" timestamp="1589867760028">
@@ -76,9 +87,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="530" y="361" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1589867884148" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1589868170223">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1589869572712">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589868170223" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589869572712" />
   </component>
 </project>
